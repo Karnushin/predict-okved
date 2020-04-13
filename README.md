@@ -11,7 +11,7 @@ table Pays - payments between companies:
 * count -	count of payments in week
 * sum -	sum of payments in week
 
-table inn_info_public - info abou companies
+table inn_info_public - info about companies
 * hash_inn	id
 * okved2	- like industry
 * region -	region 
