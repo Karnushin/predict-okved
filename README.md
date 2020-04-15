@@ -2,7 +2,7 @@
 
 goal is to beat baseline=0.12 on f1_weighted generating different features
 
-Structure of data
+Structure of data.zip
 
 table Pays - payments between companies:
 * hash_inn_kt	- id of senders
