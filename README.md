@@ -15,6 +15,6 @@ table inn_info_public - info about companies
 * hash_inn - id
 * okved2 - like industry
 * region - region 
-* is_public	flag if object for train or test
+* is_public - lag if object for train or test
 
 It's required for companies with is_public=-1 to predict industry in okved2 of file
