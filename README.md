@@ -6,15 +6,15 @@ Structure of data.zip
 
 table Pays - payments between companies:
 * hash_inn_kt	- id of senders
-* hash_inn_dt	- id of recipient
+* hash_inn_dt	- id of recipients
 * week - ordinary week :)
-* count -	count of payments in week
-* sum -	sum of payments in week
+* count -	number of payments per week
+* sum -	sum of payments per week
 
 table inn_info_public - info about companies
 * hash_inn - id
 * okved2 - like industry
 * region - region 
-* is_public - lag if object for train or test
+* is_public - flag (1 or 0) if object for train or test
 
 It's required for companies with is_public=-1 to predict industry in okved2 of file
